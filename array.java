@@ -16,6 +16,19 @@ public class array {
         }
         System.out.println("Sum "+ sum);
         
+         int sum1 = 0;
+        int m = scan.nextInt();
+        int arr1[] = new int[m];
+        for(int i=0;i<m;i++)
+        {
+            arr1[i] = scan.nextInt();
+            sum1+= arr1[i];
+        }
+         for(int i=0;i<m;i++)
+        {
+            System.out.println(arr1[i] + " ");
+        }
+        System.out.println("Sum1 "+ sum1);
     }
     
 
